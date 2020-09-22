@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/memegen/static/css/main.ccac50d1.chunk.css",
+    "main.js": "/memegen/static/js/main.16249d8b.chunk.js",
+    "main.js.map": "/memegen/static/js/main.16249d8b.chunk.js.map",
+    "runtime-main.js": "/memegen/static/js/runtime-main.47c97c6c.js",
+    "runtime-main.js.map": "/memegen/static/js/runtime-main.47c97c6c.js.map",
+    "static/js/2.e1fb9f6d.chunk.js": "/memegen/static/js/2.e1fb9f6d.chunk.js",
+    "static/js/2.e1fb9f6d.chunk.js.map": "/memegen/static/js/2.e1fb9f6d.chunk.js.map",
+    "index.html": "/memegen/index.html",
+    "precache-manifest.472aaa711110471e4f79ce620d309644.js": "/memegen/precache-manifest.472aaa711110471e4f79ce620d309644.js",
+    "service-worker.js": "/memegen/service-worker.js",
+    "static/css/main.ccac50d1.chunk.css.map": "/memegen/static/css/main.ccac50d1.chunk.css.map",
+    "static/js/2.e1fb9f6d.chunk.js.LICENSE.txt": "/memegen/static/js/2.e1fb9f6d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47c97c6c.js",
+    "static/js/2.e1fb9f6d.chunk.js",
+    "static/css/main.ccac50d1.chunk.css",
+    "static/js/main.16249d8b.chunk.js"
+  ]
+}
