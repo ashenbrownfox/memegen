@@ -5,8 +5,6 @@ function MemeGenerator() {
     topText: "",
     bottomText: ""
   })
-  //const [topText, setTopText] = useState("");
-  //const [bottomText, setBottomText] = useState("");
   const [randomImg, userandomImg] = useState("https://sportshub.cbsistatic.com/i/r/2019/10/14/62d02fd3-6290-4155-91ac-0c1b3b4c5057/thumbnail/300x300/9cabea4b22fda66ec550fbc445d32ad0/400553.png");
   const [allMemeImgs, useallMemeImgs] = useState([]);
   
@@ -14,8 +12,7 @@ function MemeGenerator() {
   useEffect(()=>{
     console.log("text changed!");
   },[])
-    //this.handleChange = this.handleChange.bind(this);
-    //this.handleSubmit = this.handleSubmit.bind(this);
+
     
    function handleChange(event){
       const value = event.target.value;
@@ -30,17 +27,11 @@ function MemeGenerator() {
       .then((response) => response.json())
       .then((response) => {
         const { memes } = response.data
-        useallMemeImgs({ allMemeImgs ,allMemeImgs: memes });
-        console.log(allMemeImgs);
+        useallMemeImgs(m=>[...memes]);
         const randNum = Math.floor(Math.random()* memes.length);
-        console.log(randNum);
         const randMemeImg= memes[randNum].url;
-        console.log(randMemeImg);
+        userandomImg(randMemeImg);
       });
-    
-    
-    
-    //userandomImg({randomImg: randMemeImg}) 
   }
     return (
       <div className="container">
